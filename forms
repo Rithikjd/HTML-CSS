@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+h1{
+   text-align:center;
+   color:blue;
+   text-decoration:underline;
+   text decoration color:blue;
+   font-size:150%;
+   }
+input{
+margin-left:60px;
+}
+
+ div{
+   border: 2px solid blue; 
+   height: 100px;
+   background: blue;
+   padding: 20px;
+}
+ 
+</style>
+</head>
+<h1>STUDENT REGISTRATION FORM</h1><br><br>
+<div>
+<form action="/action_page.php"id="form1">
+  <label for="fname">FIRST NAME</label>
+  <input type="text" id="fname" name="fname"> <label for="fname"> (max 30 characters a-z and A-Z) </label><br><br>
+  <label for="lname">LAST NAME</label>
+  <input type="text" id="lname" name="lname" form="form1">  <label for="lname"> (max 30 characters a-z and A-Z)</label><br><br>
+  <label for="dob">DATE OF BIRTH</label>
+  <input type="dob" name="dob">
+  <select id="dob" name="dob">
+  <option value="Day">Day:</option><br><br>
+  <option value="Month">Month:</option><br><br>
+</div>
+</form> 
+
+
+</body>
+</html>
