@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+h2{
+ text-align:center;
+   color:blue;
+   text-decoration:underline;
+   text decoration color:blue;
+   font-size:150%;
+   }
+input{
+color:grey
+}
+
+.dob{
+align-items:center;
+}
+
+td{
+padding:10px;
+
+}
+
+table{
+color:white;
+font-size:12pt;
+border:4px solid black;
+border-style:dashed;
+border-spacing:10px;
+ width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+	 background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)
+
+	
+}
+
+
+
+
+ 
+ 
+</style>
+<body>
+
+<h2>Student Registration Form Using Table in HTML</h2>
+
+<table style="width:60%">
+
+  <tr style="height:50px">
+    
+  </tr>
+  <tr>
+    <td>First Name</td>
+	<td><input type="text"value="Ghanendra"><span>  (Max 50 Characters Allowed)</span></input></td>
+	
+	
+    
+    
+  </tr>
+  <tr>
+    <td>Last Name</td>
+	
+	<td><input type="text"value="Yadav"> (Max 50 Characters Allowed)</td>
+    
+    
+  </tr>
+  
+  <tr>
+    <td>Email ID</td>
+    <td><input type="text"value="yghanendra@gmail.com"></td>
+  </tr>
+  
+    <tr>
+	   <td>Mobile Number</td>
+	   
+	   <td><input type="text"value="7842xxxxxx"> (Max 6 Digits Allowed)</td>
+  </tr>
+  
+  <tr>
+  <td>Gender</td>
+  <div class="radio">
+  <td>
+  <label><input type="radio"name="optradio">Male</label>
+  <label><input type="radio"name="optradio">Female</label>
+  </td>
+  </div>
+  </tr>
+  
+  <tr>
+    <td class = "select">Date of Birth(DOB)         
+    </td>   
+    <td>
+       <select>        
+            <option value="days">Day:</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+        	<option value="3">3</option>
+            
+       </select>
+	     <select>
+		 
+		 <option value="days">Month:</option>
+            <option value="1">jan</option>
+            <option value="2">feb</option>
+        	<option value="3">march</option>
+            
+       </select>
+	     <select>	
+	
+	 <option value="days">Year:</option>
+            <option value="1">1922</option>
+            <option value="2">1923</option>
+        	<option value="3">1924</option>
+			</select>
+            
+    </td>     
+         
+</tr>
+
+<tr>
+   <td>Address</td>
+ <td>
+
+    <textarea name="" id="" cols="45" rows="9"></textarea>
+</td>
+</tr>
+
+<tr>
+  <td>City</td>
+  <td><input type="text"value="Bangalore"> (Max 50 Characters Allowed)</td>
+  </tr>
+  
+  <tr>
+  <td>Pincode</td>
+  
+  <td><input type="text"value="560068"> (Max 6 Numbers Allowed)</td>
+  </tr>
+  
+  <tr>
+  <td>State</td>
+  
+  <td><input type="text"value="Karnataka"> (Max 50 Characters Allowed)</td>
+  </tr>
+  
+  <tr>
+  <td>Country</td>
+ <td><input type="text"value="India"></td>
+  </tr>
+  
+    <tr>
+  <td>Hobbies</td>
+  <div class="checkbox">
+  <td>
+  <label><input type="checkbox"name="optradio">Drawing</label>
+  <label><input type="checkbox"name="optradio">Singing</label>
+  <label><input type="checkbox"name="optradio">Dancing</label>
+  <label><input type="checkbox"name="optradio">Sketching</label></br>
+  <label><input type="checkbox"name="optradio"value="Ex-Teaching">Others</label>
+  <label><input type="text"value="Ex-Teaching"style="center"> (Max 50 Characters Allowed)</label>
+  
+  </td>
+  </tr>
+  
+  <tr>
+  <td>Qualification</td>
+  <div class="checkbox">
+  <td>
+  <label><input type="checkbox"name="optradio">High School(10th)</label></br>
+  <label><input type="checkbox"name="optradio">High School(12th)</label></br>
+  <label><input type="checkbox"name="optradio">Graduation(Bachelors)</label></br>
+  <label><input type="checkbox"name="optradio">Post Graduation(Masters)</label></br>
+  <label><input type="checkbox"name="optradio">Phd</label></br></br>
+  </td>
+  </tr>
+  
+  <tr>
+  <td>Courses Applied For</td>
+  <div class="radio">
+  <td>
+  <label><input type="radio"name="optradio">BCA(Bachelor of Computer Applications</label></br>
+  <label><input type="radio"name="optradio">B.Com(Bachelor of Commerce)</label></br>
+  <label><input type="radio"name="optradio">B.Sc(Bachelor of Science)</label></br>
+  <label><input type="radio"name="optradio">BA(Bachelor of Arts)</label></br>
+  <label><input type="radio"name="optradio">MCA(Master of Computer Application)</label></br>
+  <label><input type="radio"name="optradio">M.Com(Master of Commerce)</label></br>
+  <label><input type="radio"name="optradio">M.Sc(Master of Science)</label></br>
+  <label><input type="radio"name="optradio">MA(Master of Arts)</label></br></br>  
+  </td>
+  </tr>
+  
+  <tr>
+ <td>
+ <td align="left"</td>
+<input type="Submit" name="btnSubmit" value="Submit" onClick="Submit" align="left">
+  <input type="Reset"name="btReset" value="Reset" onClick="Reset">
+  </td>
+  </tr>
+  
+  
+  
+</table>
+
+</body>
+</html>
+
